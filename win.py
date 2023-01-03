@@ -41,7 +41,7 @@ def next():
     print("\n\n✓ Saved to : [green]" + newFile + "[/green]")
 
 url = str(input(">> Enter youtube link: "))
-dest = str(input(">> Destination directory: ")) or "."
+dest = str(input(">> Destination directory: ")) or "/Downloads"
 yt = YouTube(url)
 video = yt
 
